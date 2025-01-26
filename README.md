@@ -1,3 +1,5 @@
+writeLines(c(
+
 ---
 title: "ReadMe"
 output: html_document
@@ -41,10 +43,10 @@ Activity names are loaded and renamed.
 The test and train sets are combined with activity and subject information.
 
 ## Summarizing Data
-The data is summarized by subject and activity and means calculated for each variable. The data is writen to a text file called 'means.txt' sited in the main dir. 
+The data is summarized by subject and activity and means calculated for each variable. The data is written to a text file called 'means.txt' sited in the main dir. 
 ## Units
 The data is standardized so it does not have units. 
 
 ## Creating Codebooks
-Codebooks are created for the `data` and `means` datasets using the `codebook` package.
 
+The codebook for the means data is in a markdown code_book.qmd file in the main dir. 
