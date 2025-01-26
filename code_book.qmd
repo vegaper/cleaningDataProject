@@ -1,0 +1,182 @@
+---
+title: "codebook"
+format: html
+---
+# Codebook for Means Dataset
+
+## Introduction
+This codebook describes the variables in the `means` dataset, which is derived from the Human Activity Recognition Using Smartphones dataset. The dataset contains the mean values of various measurements grouped by subject and activity.
+Units: the measurements have been standardized so they don't have units
+
+## Variables
+
+### subject
+- **Description**: Identifier of the subject who carried out the experiment.
+- **Type**: Integer
+- **Range**: 1 to 30
+
+### activity
+- **Description**: Activity performed by the subject.
+- **Type**: Factor
+- **Levels**: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+
+### tBodyAcc-mean()-X_mean
+- **Description**: Mean value of the body acceleration signal in the X direction.
+- **Type**: Numeric
+
+### tBodyAcc-mean()-Y_mean
+- **Description**: Mean value of the body acceleration signal in the Y direction.
+- **Type**: Numeric
+
+### tBodyAcc-mean()-Z_mean
+- **Description**: Mean value of the body acceleration signal in the Z direction.
+- **Type**: Numeric
+
+### tGravityAcc-mean()-X_mean
+- **Description**: Mean value of the gravity acceleration signal in the X direction.
+- **Type**: Numeric
+
+### tGravityAcc-mean()-Y_mean
+- **Description**: Mean value of the gravity acceleration signal in the Y direction.
+- **Type**: Numeric
+
+### tGravityAcc-mean()-Z_mean
+- **Description**: Mean value of the gravity acceleration signal in the Z direction.
+- **Type**: Numeric
+
+### tBodyAccJerk-mean()-X_mean
+- **Description**: Mean value of the body acceleration jerk signal in the X direction.
+- **Type**: Numeric
+
+### tBodyAccJerk-mean()-Y_mean
+- **Description**: Mean value of the body acceleration jerk signal in the Y direction.
+- **Type**: Numeric
+
+### tBodyAccJerk-mean()-Z_mean
+- **Description**: Mean value of the body acceleration jerk signal in the Z direction.
+- **Type**: Numeric
+
+### tBodyGyro-mean()-X_mean
+- **Description**: Mean value of the body gyroscope signal in the X direction.
+- **Type**: Numeric
+
+### tBodyGyro-mean()-Y_mean
+- **Description**: Mean value of the body gyroscope signal in the Y direction.
+- **Type**: Numeric
+
+### tBodyGyro-mean()-Z_mean
+- **Description**: Mean value of the body gyroscope signal in the Z direction.
+- **Type**: Numeric
+
+### tBodyGyroJerk-mean()-X_mean
+- **Description**: Mean value of the body gyroscope jerk signal in the X direction.
+- **Type**: Numeric
+
+### tBodyGyroJerk-mean()-Y_mean
+- **Description**: Mean value of the body gyroscope jerk signal in the Y direction.
+- **Type**: Numeric
+
+### tBodyGyroJerk-mean()-Z_mean
+- **Description**: Mean value of the body gyroscope jerk signal in the Z direction.
+- **Type**: Numeric
+
+### tBodyAccMag-mean()_mean
+- **Description**: Mean value of the body acceleration magnitude.
+- **Type**: Numeric
+
+### tGravityAccMag-mean()_mean
+- **Description**: Mean value of the gravity acceleration magnitude.
+- **Type**: Numeric
+
+### tBodyAccJerkMag-mean()_mean
+- **Description**: Mean value of the body acceleration jerk magnitude.
+- **Type**: Numeric
+
+### tBodyGyroMag-mean()_mean
+- **Description**: Mean value of the body gyroscope magnitude.
+- **Type**: Numeric
+
+### tBodyGyroJerkMag-mean()_mean
+- **Description**: Mean value of the body gyroscope jerk magnitude.
+- **Type**: Numeric
+
+### tBodyAcc-std()-X_mean
+- **Description**: Standard deviation of the body acceleration signal in the X direction.
+- **Type**: Numeric
+
+### tBodyAcc-std()-Y_mean
+- **Description**: Standard deviation of the body acceleration signal in the Y direction.
+- **Type**: Numeric
+
+### tBodyAcc-std()-Z_mean
+- **Description**: Standard deviation of the body acceleration signal in the Z direction.
+- **Type**: Numeric
+
+### tGravityAcc-std()-X_mean
+- **Description**: Standard deviation of the gravity acceleration signal in the X direction.
+- **Type**: Numeric
+
+### tGravityAcc-std()-Y_mean
+- **Description**: Standard deviation of the gravity acceleration signal in the Y direction.
+- **Type**: Numeric
+
+### tGravityAcc-std()-Z_mean
+- **Description**: Standard deviation of the gravity acceleration signal in the Z direction.
+- **Type**: Numeric
+
+### tBodyAccJerk-std()-X_mean
+- **Description**: Standard deviation of the body acceleration jerk signal in the X direction.
+- **Type**: Numeric
+
+### tBodyAccJerk-std()-Y_mean
+- **Description**: Standard deviation of the body acceleration jerk signal in the Y direction.
+- **Type**: Numeric
+
+### tBodyAccJerk-std()-Z_mean
+- **Description**: Standard deviation of the body acceleration jerk signal in the Z direction.
+- **Type**: Numeric
+
+### tBodyGyro-std()-X_mean
+- **Description**: Standard deviation of the body gyroscope signal in the X direction.
+- **Type**: Numeric
+
+### tBodyGyro-std()-Y_mean
+- **Description**: Standard deviation of the body gyroscope signal in the Y direction.
+- **Type**: Numeric
+
+### tBodyGyro-std()-Z_mean
+- **Description**: Standard deviation of the body gyroscope signal in the Z direction.
+- **Type**: Numeric
+
+### tBodyGyroJerk-std()-X_mean
+- **Description**: Standard deviation of the body gyroscope jerk signal in the X direction.
+- **Type**: Numeric
+
+### tBodyGyroJerk-std()-Y_mean
+- **Description**: Standard deviation of the body gyroscope jerk signal in the Y direction.
+- **Type**: Numeric
+
+### tBodyGyroJerk-std()-Z_mean
+- **Description**: Standard deviation of the body gyroscope jerk signal in the Z direction.
+- **Type**: Numeric
+
+### tBodyAccMag-std()_mean
+- **Description**: Standard deviation of the body acceleration magnitude.
+- **Type**: Numeric
+
+### tGravityAccMag-std()_mean
+- **Description**: Standard deviation of the gravity acceleration magnitude.
+- **Type**: Numeric
+
+### tBodyAccJerkMag-std()_mean
+- **Description**: Standard deviation of the body acceleration jerk magnitude.
+- **Type**: Numeric
+
+### tBodyGyroMag-std()_mean
+- **Description**: Standard deviation of the body gyroscope magnitude.
+- **Type**: Numeric
+
+### tBodyGyroJerkMag-std()_mean
+- **Description**: Standard deviation of the body gyroscope jerk magnitude.
+- **Type**: Numeric
+
